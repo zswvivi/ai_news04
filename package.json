@@ -1,0 +1,30 @@
+{
+  "name": "ai-news-website",
+  "version": "1.0.0",
+  "description": "A website that collects and displays real-time AI news",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "ai",
+    "news",
+    "nextjs",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.17",
+    "autoprefixer": "^10.4.15",
+    "axios": "^1.4.0",
+    "next": "^13.4.19",
+    "postcss": "^8.4.28",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.3"
+  }
+}
