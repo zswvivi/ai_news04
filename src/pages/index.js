@@ -108,6 +108,7 @@ export default function Home() {
                     source={item.source}
                     date={item.date}
                     url={item.url}
+                    image={item.image}
                   />
                 ))
               ) : (
